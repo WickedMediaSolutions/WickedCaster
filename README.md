@@ -6,17 +6,17 @@ The main outline of this project is to create an open source radio automation pr
 this is meant for the hobby internet/fn radio person but will be stable enough for a commercial environment.
 
 # Features to come:
-Built in encoders for shoutcast/icecast audio servers
-Sound Carts for instant sound boards
-Remote data access for website plugins to pull information and handle song requests
-wordpress plugin for station info
-flac audio support
-m4a audio support
-MySQL driven 
-Ability to record your broadcasts quickly
-simple intuitive interface for the average person to be able to set up and run a radio station
-automation tools to run a station 24 hours a day with no human interaction
-support for multiple output devices Main audio output and a Cue audio output for monitoring
+- Built in encoders for shoutcast/icecast audio servers
+- Sound Carts for instant sound boards
+- Remote data access for website plugins to pull information and handle song requests
+- wordpress plugin for station info
+- flac audio support
+- m4a audio support
+- MySQL driven 
+- Ability to record your broadcasts quickly
+- simple intuitive interface for the average person to be able to set up and run a radio station
+- automation tools to run a station 24 hours a day with no human interaction
+- support for multiple output devices Main audio output and a Cue audio output for monitoring
 
 # The Future is unwritten
 I have had this dream for quite some time and am now able to finally get motivated even though I cannot program well at all 

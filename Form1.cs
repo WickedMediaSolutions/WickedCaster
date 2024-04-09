@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
@@ -190,6 +192,8 @@ namespace WinFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Form2 form = new Form2();
+            form.Show(); // or form.ShowDialog(this);
             // Encoder setup window
         }
 
@@ -200,7 +204,9 @@ namespace WinFormsApp1
 
         private void panel37_Paint(object sender, PaintEventArgs e)
         {
-            // Encoders status and details of stream stats
+            // one click sound cart panel with audio level control for output of sounds. multiple sounds should be able to play at the same time
+            //image is just for visual reference from sam broadcaster we will not split the audio between cue/air output for sound carts we only need the volume slider controls and sound cart buttons
+
         }
 
         private void panel36_Paint(object sender, PaintEventArgs e)
@@ -306,6 +312,50 @@ namespace WinFormsApp1
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             //non selectable indicator if Auto DJ is enabled
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Ths project should utilize SQL for storing song information such as file location and id3 tag info like artist/title 
+            // SQL needs to be remotely accessble for web plugins to pull now playing information and inject song requests into the database
+            // Encoders are icecast2 and shoutcast 2 only
+            // audio support should be mp3, wav, flac, m4a
+            // vu meters should all be uniform in color I would like blue for normal level then gradient to red for red line levels
+            // all slider controls should be uniform in coloring and function
+            // will be able to edit id3 tag information for songs in library
+            // multiple audio output support to output audio to many devices
+            // separate air/cue audio devices AIR being for main station output feed and CUE for headphones and previewing all audio with cue support
+            // sound cart panel for instant play sounds with adjustable output level control
+            // more of these comments to come as i think of stuff I aim only able to work on this late in the evening hours for a few hours a day and I suck at coding I can easily visualise the end result
+            // will add song request display for real time viewing of song requests coming in from a web plugin
+            // because of remote SQL access we can use that to build a wordpress plugin to handle now playing information as well as song requests
+            // will add main audio control levels for air output level and cue output level
+
+        }
+
+        private void panel50_Paint(object sender, PaintEventArgs e)
+        {
+            // air output volume control
+        }
+
+        private void panel54_Paint(object sender, PaintEventArgs e)
+        {
+            // cue output audio control
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            // air output enable/disable if enable make button green
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            // cue output enable/disable if enabled make button green
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // list view for song requests displays in order as is received shows song artist/title in list and double clicking track will insert into queue or song can be dragged directly into player deck
         }
     }
 }

@@ -106,6 +106,21 @@
             button1 = new Button();
             panel36 = new Panel();
             panel37 = new Panel();
+            panel48 = new Panel();
+            label19 = new Label();
+            panel58 = new Panel();
+            listView1 = new ListView();
+            panel49 = new Panel();
+            radioButton3 = new RadioButton();
+            radioButton2 = new RadioButton();
+            panel50 = new Panel();
+            panel51 = new Panel();
+            panel52 = new Panel();
+            panel53 = new Panel();
+            panel54 = new Panel();
+            panel55 = new Panel();
+            panel56 = new Panel();
+            panel57 = new Panel();
             panel1.SuspendLayout();
             panel10.SuspendLayout();
             panel8.SuspendLayout();
@@ -128,6 +143,13 @@
             panel34.SuspendLayout();
             panel35.SuspendLayout();
             panel36.SuspendLayout();
+            panel48.SuspendLayout();
+            panel58.SuspendLayout();
+            panel49.SuspendLayout();
+            panel50.SuspendLayout();
+            panel51.SuspendLayout();
+            panel54.SuspendLayout();
+            panel55.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -857,7 +879,7 @@
             panel32.Controls.Add(panel33);
             panel32.Location = new Point(874, 251);
             panel32.Name = "panel32";
-            panel32.Size = new Size(558, 460);
+            panel32.Size = new Size(558, 185);
             panel32.TabIndex = 13;
             panel32.Paint += panel32_Paint;
             // 
@@ -869,7 +891,7 @@
             panel33.BorderStyle = BorderStyle.FixedSingle;
             panel33.Location = new Point(8, 3);
             panel33.Name = "panel33";
-            panel33.Size = new Size(544, 447);
+            panel33.Size = new Size(544, 179);
             panel33.TabIndex = 0;
             panel33.Paint += panel33_Paint;
             // 
@@ -879,14 +901,13 @@
             panel34.Controls.Add(radioButton1);
             panel34.Controls.Add(button6);
             panel34.Controls.Add(button5);
-            panel34.Controls.Add(panel35);
             panel34.Controls.Add(button4);
             panel34.Controls.Add(button3);
             panel34.Controls.Add(button2);
             panel34.Controls.Add(button1);
             panel34.Location = new Point(575, 254);
             panel34.Name = "panel34";
-            panel34.Size = new Size(293, 288);
+            panel34.Size = new Size(293, 182);
             panel34.TabIndex = 14;
             panel34.Paint += panel34_Paint;
             // 
@@ -933,7 +954,7 @@
             panel35.BorderStyle = BorderStyle.FixedSingle;
             panel35.Controls.Add(checkBox5);
             panel35.Controls.Add(checkBox6);
-            panel35.Location = new Point(6, 247);
+            panel35.Location = new Point(3, 222);
             panel35.Name = "panel35";
             panel35.Size = new Size(280, 37);
             panel35.TabIndex = 19;
@@ -1017,21 +1038,185 @@
             // 
             panel36.BackColor = Color.Teal;
             panel36.Controls.Add(panel37);
-            panel36.Location = new Point(575, 548);
+            panel36.Controls.Add(panel35);
+            panel36.Location = new Point(575, 442);
             panel36.Name = "panel36";
-            panel36.Size = new Size(290, 163);
+            panel36.Size = new Size(290, 269);
             panel36.TabIndex = 15;
             panel36.Paint += panel36_Paint;
             // 
             // panel37
             // 
             panel37.BackColor = Color.White;
+            panel37.BackgroundImage = Properties.Resources.fxpanel;
+            panel37.BackgroundImageLayout = ImageLayout.Stretch;
             panel37.BorderStyle = BorderStyle.FixedSingle;
-            panel37.Location = new Point(5, 4);
+            panel37.Location = new Point(5, 7);
             panel37.Name = "panel37";
-            panel37.Size = new Size(281, 150);
+            panel37.Size = new Size(281, 210);
             panel37.TabIndex = 0;
             panel37.Paint += panel37_Paint;
+            // 
+            // panel48
+            // 
+            panel48.BackColor = Color.Teal;
+            panel48.Controls.Add(label19);
+            panel48.Controls.Add(panel58);
+            panel48.Controls.Add(panel49);
+            panel48.Location = new Point(877, 442);
+            panel48.Name = "panel48";
+            panel48.Size = new Size(555, 269);
+            panel48.TabIndex = 16;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.BackColor = Color.Transparent;
+            label19.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            label19.Location = new Point(262, -1);
+            label19.Name = "label19";
+            label19.Size = new Size(78, 21);
+            label19.TabIndex = 2;
+            label19.Text = "Requests";
+            // 
+            // panel58
+            // 
+            panel58.BackColor = Color.FromArgb(64, 64, 64);
+            panel58.Controls.Add(listView1);
+            panel58.Location = new Point(107, 19);
+            panel58.Name = "panel58";
+            panel58.Size = new Size(441, 100);
+            panel58.TabIndex = 1;
+            // 
+            // listView1
+            // 
+            listView1.Location = new Point(3, 4);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(433, 93);
+            listView1.TabIndex = 0;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            // 
+            // panel49
+            // 
+            panel49.Controls.Add(radioButton3);
+            panel49.Controls.Add(radioButton2);
+            panel49.Controls.Add(panel50);
+            panel49.Controls.Add(panel54);
+            panel49.Location = new Point(5, 19);
+            panel49.Name = "panel49";
+            panel49.Size = new Size(96, 240);
+            panel49.TabIndex = 0;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.FlatStyle = FlatStyle.System;
+            radioButton3.Location = new Point(51, 221);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(52, 20);
+            radioButton3.TabIndex = 13;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Cue";
+            radioButton3.UseVisualStyleBackColor = true;
+            radioButton3.CheckedChanged += radioButton3_CheckedChanged;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.FlatStyle = FlatStyle.System;
+            radioButton2.Location = new Point(9, 221);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(46, 20);
+            radioButton2.TabIndex = 12;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Air";
+            radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.CheckedChanged += radioButton2_CheckedChanged;
+            // 
+            // panel50
+            // 
+            panel50.BackColor = Color.Transparent;
+            panel50.BackgroundImage = Properties.Resources.playervucontrol;
+            panel50.BackgroundImageLayout = ImageLayout.Stretch;
+            panel50.BorderStyle = BorderStyle.FixedSingle;
+            panel50.Controls.Add(panel51);
+            panel50.Controls.Add(panel53);
+            panel50.Location = new Point(11, 13);
+            panel50.Name = "panel50";
+            panel50.Size = new Size(28, 206);
+            panel50.TabIndex = 11;
+            panel50.Paint += panel50_Paint;
+            // 
+            // panel51
+            // 
+            panel51.BackColor = Color.Transparent;
+            panel51.BackgroundImage = Properties.Resources.playervucontrol;
+            panel51.BackgroundImageLayout = ImageLayout.Stretch;
+            panel51.BorderStyle = BorderStyle.FixedSingle;
+            panel51.Controls.Add(panel52);
+            panel51.Location = new Point(-30, -1);
+            panel51.Name = "panel51";
+            panel51.Size = new Size(28, 206);
+            panel51.TabIndex = 8;
+            // 
+            // panel52
+            // 
+            panel52.BackColor = Color.White;
+            panel52.Location = new Point(-35, 1);
+            panel52.Name = "panel52";
+            panel52.Size = new Size(28, 192);
+            panel52.TabIndex = 6;
+            // 
+            // panel53
+            // 
+            panel53.BackColor = Color.White;
+            panel53.Location = new Point(-35, 1);
+            panel53.Name = "panel53";
+            panel53.Size = new Size(28, 192);
+            panel53.TabIndex = 6;
+            // 
+            // panel54
+            // 
+            panel54.BackColor = Color.Transparent;
+            panel54.BackgroundImage = Properties.Resources.playervucontrol;
+            panel54.BackgroundImageLayout = ImageLayout.Stretch;
+            panel54.BorderStyle = BorderStyle.FixedSingle;
+            panel54.Controls.Add(panel55);
+            panel54.Controls.Add(panel57);
+            panel54.Location = new Point(56, 13);
+            panel54.Name = "panel54";
+            panel54.Size = new Size(28, 206);
+            panel54.TabIndex = 10;
+            panel54.Paint += panel54_Paint;
+            // 
+            // panel55
+            // 
+            panel55.BackColor = Color.Transparent;
+            panel55.BackgroundImage = Properties.Resources.playervucontrol;
+            panel55.BackgroundImageLayout = ImageLayout.Stretch;
+            panel55.BorderStyle = BorderStyle.FixedSingle;
+            panel55.Controls.Add(panel56);
+            panel55.Location = new Point(-30, -1);
+            panel55.Name = "panel55";
+            panel55.Size = new Size(28, 206);
+            panel55.TabIndex = 8;
+            // 
+            // panel56
+            // 
+            panel56.BackColor = Color.White;
+            panel56.Location = new Point(-35, 1);
+            panel56.Name = "panel56";
+            panel56.Size = new Size(28, 192);
+            panel56.TabIndex = 6;
+            // 
+            // panel57
+            // 
+            panel57.BackColor = Color.White;
+            panel57.Location = new Point(-35, 1);
+            panel57.Name = "panel57";
+            panel57.Size = new Size(28, 192);
+            panel57.TabIndex = 6;
             // 
             // Form1
             // 
@@ -1041,6 +1226,7 @@
             BackgroundImage = Properties.Resources.Rpbjm;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1444, 726);
+            Controls.Add(panel48);
             Controls.Add(panel36);
             Controls.Add(panel34);
             Controls.Add(panel32);
@@ -1050,6 +1236,7 @@
             Controls.Add(panel1);
             Name = "Form1";
             Text = "Wicked Broadcaster";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel10.ResumeLayout(false);
@@ -1080,6 +1267,15 @@
             panel35.ResumeLayout(false);
             panel35.PerformLayout();
             panel36.ResumeLayout(false);
+            panel48.ResumeLayout(false);
+            panel48.PerformLayout();
+            panel58.ResumeLayout(false);
+            panel49.ResumeLayout(false);
+            panel49.PerformLayout();
+            panel50.ResumeLayout(false);
+            panel51.ResumeLayout(false);
+            panel54.ResumeLayout(false);
+            panel55.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -1163,5 +1359,20 @@
         private Button button6;
         private Button button5;
         private RadioButton radioButton1;
+        private Panel panel48;
+        private Panel panel49;
+        private Panel panel50;
+        private Panel panel51;
+        private Panel panel52;
+        private Panel panel53;
+        private Panel panel54;
+        private Panel panel55;
+        private Panel panel56;
+        private Panel panel57;
+        private RadioButton radioButton3;
+        private RadioButton radioButton2;
+        private Panel panel58;
+        private ListView listView1;
+        private Label label19;
     }
 }

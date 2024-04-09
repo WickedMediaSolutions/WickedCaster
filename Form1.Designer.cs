@@ -94,6 +94,9 @@
             panel32 = new Panel();
             panel33 = new Panel();
             panel34 = new Panel();
+            radioButton1 = new RadioButton();
+            button6 = new Button();
+            button5 = new Button();
             panel35 = new Panel();
             checkBox5 = new CheckBox();
             checkBox6 = new CheckBox();
@@ -179,7 +182,7 @@
             panel10.BackgroundImage = Properties.Resources.playervucontrol;
             panel10.BackgroundImageLayout = ImageLayout.Stretch;
             panel10.Controls.Add(panel11);
-            panel10.Location = new Point(490, 7);
+            panel10.Location = new Point(490, 9);
             panel10.Name = "panel10";
             panel10.Size = new Size(28, 192);
             panel10.TabIndex = 7;
@@ -200,7 +203,7 @@
             panel8.BackgroundImageLayout = ImageLayout.Stretch;
             panel8.BorderStyle = BorderStyle.FixedSingle;
             panel8.Controls.Add(panel9);
-            panel8.Location = new Point(524, 7);
+            panel8.Location = new Point(524, 9);
             panel8.Name = "panel8";
             panel8.Size = new Size(28, 192);
             panel8.TabIndex = 5;
@@ -322,7 +325,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label11.ForeColor = Color.FromArgb(64, 64, 64);
+            label11.ForeColor = Color.Black;
             label11.Location = new Point(65, 34);
             label11.Name = "label11";
             label11.Size = new Size(166, 28);
@@ -335,7 +338,7 @@
             label12.AutoSize = true;
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label12.ForeColor = Color.FromArgb(64, 64, 64);
+            label12.ForeColor = Color.Black;
             label12.Location = new Point(65, 0);
             label12.Name = "label12";
             label12.Size = new Size(162, 28);
@@ -410,9 +413,11 @@
             // 
             // panel13
             // 
-            panel13.BackColor = Color.White;
+            panel13.BackColor = Color.Transparent;
+            panel13.BackgroundImage = Properties.Resources.playervucontrol;
+            panel13.BackgroundImageLayout = ImageLayout.Stretch;
             panel13.Controls.Add(panel14);
-            panel13.Location = new Point(490, 7);
+            panel13.Location = new Point(490, 9);
             panel13.Name = "panel13";
             panel13.Size = new Size(28, 192);
             panel13.TabIndex = 7;
@@ -429,8 +434,10 @@
             // panel15
             // 
             panel15.BackColor = Color.White;
+            panel15.BackgroundImage = Properties.Resources.vumeter;
+            panel15.BackgroundImageLayout = ImageLayout.Stretch;
             panel15.Controls.Add(panel16);
-            panel15.Location = new Point(524, 7);
+            panel15.Location = new Point(524, 9);
             panel15.Name = "panel15";
             panel15.Size = new Size(28, 192);
             panel15.TabIndex = 5;
@@ -513,7 +520,7 @@
             // 
             // panel22
             // 
-            panel22.BackColor = Color.LawnGreen;
+            panel22.BackColor = Color.Lime;
             panel22.BorderStyle = BorderStyle.FixedSingle;
             panel22.Controls.Add(label9);
             panel22.Controls.Add(label8);
@@ -542,7 +549,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label8.ForeColor = Color.FromArgb(64, 64, 64);
+            label8.ForeColor = Color.Black;
             label8.Location = new Point(65, 33);
             label8.Name = "label8";
             label8.Size = new Size(166, 28);
@@ -554,7 +561,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label7.ForeColor = Color.FromArgb(64, 64, 64);
+            label7.ForeColor = Color.Black;
             label7.Location = new Point(65, 0);
             label7.Name = "label7";
             label7.Size = new Size(162, 28);
@@ -835,6 +842,9 @@
             // panel31
             // 
             panel31.BackColor = Color.White;
+            panel31.BackgroundImage = Properties.Resources.playlist_area;
+            panel31.BackgroundImageLayout = ImageLayout.Stretch;
+            panel31.BorderStyle = BorderStyle.FixedSingle;
             panel31.Location = new Point(8, 3);
             panel31.Name = "panel31";
             panel31.Size = new Size(544, 447);
@@ -854,6 +864,9 @@
             // panel33
             // 
             panel33.BackColor = Color.White;
+            panel33.BackgroundImage = Properties.Resources.queuearea;
+            panel33.BackgroundImageLayout = ImageLayout.Stretch;
+            panel33.BorderStyle = BorderStyle.FixedSingle;
             panel33.Location = new Point(8, 3);
             panel33.Name = "panel33";
             panel33.Size = new Size(544, 447);
@@ -863,6 +876,9 @@
             // panel34
             // 
             panel34.BackColor = Color.Teal;
+            panel34.Controls.Add(radioButton1);
+            panel34.Controls.Add(button6);
+            panel34.Controls.Add(button5);
             panel34.Controls.Add(panel35);
             panel34.Controls.Add(button4);
             panel34.Controls.Add(button3);
@@ -874,15 +890,52 @@
             panel34.TabIndex = 14;
             panel34.Paint += panel34_Paint;
             // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            radioButton1.Location = new Point(72, 106);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(154, 25);
+            radioButton1.TabIndex = 22;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Auto DJ Enabled";
+            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
+            // 
+            // button6
+            // 
+            button6.FlatStyle = FlatStyle.System;
+            button6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            button6.Location = new Point(153, 77);
+            button6.Name = "button6";
+            button6.Size = new Size(130, 30);
+            button6.TabIndex = 21;
+            button6.Text = "Disable AutoDJ";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button5
+            // 
+            button5.FlatStyle = FlatStyle.System;
+            button5.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            button5.Location = new Point(6, 77);
+            button5.Name = "button5";
+            button5.Size = new Size(130, 30);
+            button5.TabIndex = 20;
+            button5.Text = "Enable AutoDJ";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // panel35
             // 
             panel35.BackColor = Color.DarkGray;
             panel35.BorderStyle = BorderStyle.FixedSingle;
             panel35.Controls.Add(checkBox5);
             panel35.Controls.Add(checkBox6);
-            panel35.Location = new Point(6, 76);
+            panel35.Location = new Point(6, 247);
             panel35.Name = "panel35";
-            panel35.Size = new Size(280, 208);
+            panel35.Size = new Size(280, 37);
             panel35.TabIndex = 19;
             panel35.Paint += panel35_Paint_1;
             // 
@@ -891,7 +944,7 @@
             checkBox5.AutoSize = true;
             checkBox5.FlatStyle = FlatStyle.System;
             checkBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            checkBox5.Location = new Point(135, 180);
+            checkBox5.Location = new Point(134, 6);
             checkBox5.Name = "checkBox5";
             checkBox5.Size = new Size(96, 26);
             checkBox5.TabIndex = 11;
@@ -904,7 +957,7 @@
             checkBox6.AutoSize = true;
             checkBox6.FlatStyle = FlatStyle.System;
             checkBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            checkBox6.Location = new Point(47, 180);
+            checkBox6.Location = new Point(46, 6);
             checkBox6.Name = "checkBox6";
             checkBox6.Size = new Size(89, 26);
             checkBox6.TabIndex = 10;
@@ -1023,6 +1076,7 @@
             panel30.ResumeLayout(false);
             panel32.ResumeLayout(false);
             panel34.ResumeLayout(false);
+            panel34.PerformLayout();
             panel35.ResumeLayout(false);
             panel35.PerformLayout();
             panel36.ResumeLayout(false);
@@ -1106,5 +1160,8 @@
         private Label label17;
         private Panel panel47;
         private Panel panel46;
+        private Button button6;
+        private Button button5;
+        private RadioButton radioButton1;
     }
 }

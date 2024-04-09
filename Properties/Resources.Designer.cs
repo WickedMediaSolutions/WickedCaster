@@ -143,6 +143,26 @@ namespace WinFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap playlist_area {
+            get {
+                object obj = ResourceManager.GetObject("playlist area", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap queuearea {
+            get {
+                object obj = ResourceManager.GetObject("queuearea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rpbjm {
             get {
                 object obj = ResourceManager.GetObject("Rpbjm", resourceCulture);

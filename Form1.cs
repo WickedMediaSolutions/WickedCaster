@@ -114,6 +114,10 @@ namespace WinFormsApp1
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+            //Player must support mp3, wav, m4a, and flac at minimum
+            // Slider controls should be the color scheme as in the placeholder image
+            // VU Meter should be those colors not sure how
+            // When auto-dj is enabled players should crossfade to each other
             // Player panel for player A
             // panel color should be editable in the configuration options
         }
@@ -251,7 +255,7 @@ namespace WinFormsApp1
 
         private void panel39_Paint(object sender, PaintEventArgs e)
         {
-             // panel and format to display album art player b
+            // panel and format to display album art player b
         }
 
         private void panel38_Paint(object sender, PaintEventArgs e)
@@ -287,6 +291,21 @@ namespace WinFormsApp1
         private void label18_Click(object sender, EventArgs e)
         {
             // mic off label
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //Enable autoi dj control and use rotation playlist ruleis on repeats
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            //Dsable autodj and return to manual control
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            //non selectable indicator if Auto DJ is enabled
         }
     }
 }

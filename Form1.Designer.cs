@@ -286,7 +286,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.LawnGreen;
+            panel2.BackColor = Color.Lime;
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(label10);
             panel2.Controls.Add(label3);

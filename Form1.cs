@@ -115,6 +115,7 @@ namespace WinFormsApp1
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             // Player panel for player A
+            // panel color should be editable in the configuration options
         }
 
         private void panel23_Paint(object sender, PaintEventArgs e)
@@ -216,6 +217,76 @@ namespace WinFormsApp1
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
             // Send sound cart audio to cue audio device
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            // Total track time Player B
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            // placeholder for title display player b
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            // placeholder for artist display player b
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            // placeholder for title display player a
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            // placeholder for artist display player a
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            // total track time player a
+        }
+
+        private void panel39_Paint(object sender, PaintEventArgs e)
+        {
+             // panel and format to display album art player b
+        }
+
+        private void panel38_Paint(object sender, PaintEventArgs e)
+        {
+            // panel and format to display album art for player a
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel42_Paint(object sender, PaintEventArgs e)
+        {
+            //Music Volume Level for when auto fade is engaged music should be faded to this % when push to talk is pressed
+        }
+
+        private void panel47_Paint(object sender, PaintEventArgs e)
+        {
+            //Pressing enables mic press to talk to be used
+        }
+
+        private void panel46_Paint(object sender, PaintEventArgs e)
+        {
+            // pressing disables mic and press to talk cannot be engaged
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+            //mic on label
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            // mic off label
         }
     }
 }

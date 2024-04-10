@@ -201,7 +201,7 @@
             // panel10
             // 
             panel10.BackColor = Color.Transparent;
-            panel10.BackgroundImage = Properties.Resources.playervucontrol;
+            panel10.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel10.BackgroundImageLayout = ImageLayout.Stretch;
             panel10.Controls.Add(panel11);
             panel10.Location = new Point(490, 9);
@@ -221,7 +221,7 @@
             // panel8
             // 
             panel8.BackColor = Color.Transparent;
-            panel8.BackgroundImage = Properties.Resources.vumeter;
+            panel8.BackgroundImage = WickedBroadcaster.Properties.Resources.vumeter;
             panel8.BackgroundImageLayout = ImageLayout.Stretch;
             panel8.BorderStyle = BorderStyle.FixedSingle;
             panel8.Controls.Add(panel9);
@@ -242,7 +242,7 @@
             // panel6
             // 
             panel6.BackColor = Color.Transparent;
-            panel6.BackgroundImage = Properties.Resources.nextbutton;
+            panel6.BackgroundImage = WickedBroadcaster.Properties.Resources.nextbutton;
             panel6.BackgroundImageLayout = ImageLayout.Stretch;
             panel6.Location = new Point(297, 93);
             panel6.Name = "panel6";
@@ -253,7 +253,7 @@
             // panel7
             // 
             panel7.BackColor = Color.Transparent;
-            panel7.BackgroundImage = Properties.Resources.stopbutton;
+            panel7.BackgroundImage = WickedBroadcaster.Properties.Resources.stopbutton;
             panel7.BackgroundImageLayout = ImageLayout.Stretch;
             panel7.Location = new Point(225, 93);
             panel7.Name = "panel7";
@@ -264,7 +264,7 @@
             // panel5
             // 
             panel5.BackColor = Color.Transparent;
-            panel5.BackgroundImage = Properties.Resources.playbutton;
+            panel5.BackgroundImage = WickedBroadcaster.Properties.Resources.playbutton;
             panel5.BackgroundImageLayout = ImageLayout.Stretch;
             panel5.Location = new Point(153, 93);
             panel5.Name = "panel5";
@@ -275,7 +275,7 @@
             // panel4
             // 
             panel4.BackColor = Color.Transparent;
-            panel4.BackgroundImage = Properties.Resources.sliderhoriz;
+            panel4.BackgroundImage = WickedBroadcaster.Properties.Resources.sliderhoriz;
             panel4.BackgroundImageLayout = ImageLayout.Stretch;
             panel4.BorderStyle = BorderStyle.Fixed3D;
             panel4.Location = new Point(8, 168);
@@ -297,7 +297,7 @@
             // panel38
             // 
             panel38.BackColor = Color.Transparent;
-            panel38.BackgroundImage = Properties.Resources.na;
+            panel38.BackgroundImage = WickedBroadcaster.Properties.Resources.na;
             panel38.BackgroundImageLayout = ImageLayout.Stretch;
             panel38.BorderStyle = BorderStyle.FixedSingle;
             panel38.Location = new Point(3, 3);
@@ -436,7 +436,7 @@
             // panel13
             // 
             panel13.BackColor = Color.Transparent;
-            panel13.BackgroundImage = Properties.Resources.playervucontrol;
+            panel13.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel13.BackgroundImageLayout = ImageLayout.Stretch;
             panel13.Controls.Add(panel14);
             panel13.Location = new Point(490, 9);
@@ -456,7 +456,7 @@
             // panel15
             // 
             panel15.BackColor = Color.White;
-            panel15.BackgroundImage = Properties.Resources.vumeter;
+            panel15.BackgroundImage = WickedBroadcaster.Properties.Resources.vumeter;
             panel15.BackgroundImageLayout = ImageLayout.Stretch;
             panel15.Controls.Add(panel16);
             panel15.Location = new Point(524, 9);
@@ -476,7 +476,7 @@
             // panel17
             // 
             panel17.BackColor = Color.Transparent;
-            panel17.BackgroundImage = Properties.Resources.nextbutton;
+            panel17.BackgroundImage = WickedBroadcaster.Properties.Resources.nextbutton;
             panel17.BackgroundImageLayout = ImageLayout.Stretch;
             panel17.Location = new Point(297, 93);
             panel17.Name = "panel17";
@@ -487,7 +487,7 @@
             // panel18
             // 
             panel18.BackColor = Color.Transparent;
-            panel18.BackgroundImage = Properties.Resources.stopbutton;
+            panel18.BackgroundImage = WickedBroadcaster.Properties.Resources.stopbutton;
             panel18.BackgroundImageLayout = ImageLayout.Stretch;
             panel18.Location = new Point(225, 93);
             panel18.Name = "panel18";
@@ -498,7 +498,7 @@
             // panel19
             // 
             panel19.BackColor = Color.Transparent;
-            panel19.BackgroundImage = Properties.Resources.playbutton;
+            panel19.BackgroundImage = WickedBroadcaster.Properties.Resources.playbutton;
             panel19.BackgroundImageLayout = ImageLayout.Stretch;
             panel19.Location = new Point(153, 93);
             panel19.Name = "panel19";
@@ -509,7 +509,7 @@
             // panel20
             // 
             panel20.BackColor = Color.Transparent;
-            panel20.BackgroundImage = Properties.Resources.sliderhoriz1;
+            panel20.BackgroundImage = WickedBroadcaster.Properties.Resources.sliderhoriz1;
             panel20.BackgroundImageLayout = ImageLayout.Stretch;
             panel20.BorderStyle = BorderStyle.Fixed3D;
             panel20.Location = new Point(8, 168);
@@ -531,7 +531,7 @@
             // panel39
             // 
             panel39.BackColor = Color.Transparent;
-            panel39.BackgroundImage = Properties.Resources.na;
+            panel39.BackgroundImage = WickedBroadcaster.Properties.Resources.na;
             panel39.BackgroundImageLayout = ImageLayout.Stretch;
             panel39.BorderStyle = BorderStyle.FixedSingle;
             panel39.Location = new Point(3, 3);
@@ -670,7 +670,7 @@
             // panel42
             // 
             panel42.BackColor = Color.Transparent;
-            panel42.BackgroundImage = Properties.Resources.playervucontrol;
+            panel42.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel42.BackgroundImageLayout = ImageLayout.Stretch;
             panel42.BorderStyle = BorderStyle.FixedSingle;
             panel42.Controls.Add(panel43);
@@ -684,7 +684,7 @@
             // panel43
             // 
             panel43.BackColor = Color.Transparent;
-            panel43.BackgroundImage = Properties.Resources.playervucontrol;
+            panel43.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel43.BackgroundImageLayout = ImageLayout.Stretch;
             panel43.BorderStyle = BorderStyle.FixedSingle;
             panel43.Controls.Add(panel44);
@@ -758,7 +758,7 @@
             // panel47
             // 
             panel47.BackColor = Color.Transparent;
-            panel47.BackgroundImage = Properties.Resources.micon;
+            panel47.BackgroundImage = WickedBroadcaster.Properties.Resources.micon;
             panel47.BackgroundImageLayout = ImageLayout.Stretch;
             panel47.Location = new Point(0, 37);
             panel47.Name = "panel47";
@@ -769,7 +769,7 @@
             // panel46
             // 
             panel46.BackColor = Color.Transparent;
-            panel46.BackgroundImage = Properties.Resources.micoff;
+            panel46.BackgroundImage = WickedBroadcaster.Properties.Resources.micoff;
             panel46.BackgroundImageLayout = ImageLayout.Stretch;
             panel46.Location = new Point(60, 37);
             panel46.Name = "panel46";
@@ -780,7 +780,7 @@
             // panel27
             // 
             panel27.BackColor = Color.Transparent;
-            panel27.BackgroundImage = Properties.Resources.playervucontrol;
+            panel27.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel27.BackgroundImageLayout = ImageLayout.Stretch;
             panel27.BorderStyle = BorderStyle.FixedSingle;
             panel27.Controls.Add(panel40);
@@ -794,7 +794,7 @@
             // panel40
             // 
             panel40.BackColor = Color.Transparent;
-            panel40.BackgroundImage = Properties.Resources.playervucontrol;
+            panel40.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel40.BackgroundImageLayout = ImageLayout.Stretch;
             panel40.BorderStyle = BorderStyle.FixedSingle;
             panel40.Controls.Add(panel41);
@@ -822,7 +822,7 @@
             // panel25
             // 
             panel25.BackColor = Color.Transparent;
-            panel25.BackgroundImage = Properties.Resources.vumeter;
+            panel25.BackgroundImage = WickedBroadcaster.Properties.Resources.vumeter;
             panel25.BackgroundImageLayout = ImageLayout.Stretch;
             panel25.BorderStyle = BorderStyle.FixedSingle;
             panel25.Controls.Add(panel26);
@@ -843,7 +843,7 @@
             // panel24
             // 
             panel24.BackColor = Color.Transparent;
-            panel24.BackgroundImage = Properties.Resources.mictalkbutton;
+            panel24.BackgroundImage = WickedBroadcaster.Properties.Resources.mictalkbutton;
             panel24.BackgroundImageLayout = ImageLayout.Stretch;
             panel24.Location = new Point(5, 109);
             panel24.Name = "panel24";
@@ -864,7 +864,7 @@
             // panel31
             // 
             panel31.BackColor = Color.White;
-            panel31.BackgroundImage = Properties.Resources.playlist_area;
+            panel31.BackgroundImage = WickedBroadcaster.Properties.Resources.playlist_area;
             panel31.BackgroundImageLayout = ImageLayout.Stretch;
             panel31.BorderStyle = BorderStyle.FixedSingle;
             panel31.Location = new Point(8, 3);
@@ -886,7 +886,7 @@
             // panel33
             // 
             panel33.BackColor = Color.White;
-            panel33.BackgroundImage = Properties.Resources.queuearea;
+            panel33.BackgroundImage = WickedBroadcaster.Properties.Resources.queuearea;
             panel33.BackgroundImageLayout = ImageLayout.Stretch;
             panel33.BorderStyle = BorderStyle.FixedSingle;
             panel33.Location = new Point(8, 3);
@@ -1048,7 +1048,7 @@
             // panel37
             // 
             panel37.BackColor = Color.White;
-            panel37.BackgroundImage = Properties.Resources.fxpanel;
+            panel37.BackgroundImage = WickedBroadcaster.Properties.Resources.fxpanel;
             panel37.BackgroundImageLayout = ImageLayout.Stretch;
             panel37.BorderStyle = BorderStyle.FixedSingle;
             panel37.Location = new Point(5, 7);
@@ -1137,7 +1137,7 @@
             // panel50
             // 
             panel50.BackColor = Color.Transparent;
-            panel50.BackgroundImage = Properties.Resources.playervucontrol;
+            panel50.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel50.BackgroundImageLayout = ImageLayout.Stretch;
             panel50.BorderStyle = BorderStyle.FixedSingle;
             panel50.Controls.Add(panel51);
@@ -1151,7 +1151,7 @@
             // panel51
             // 
             panel51.BackColor = Color.Transparent;
-            panel51.BackgroundImage = Properties.Resources.playervucontrol;
+            panel51.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel51.BackgroundImageLayout = ImageLayout.Stretch;
             panel51.BorderStyle = BorderStyle.FixedSingle;
             panel51.Controls.Add(panel52);
@@ -1179,7 +1179,7 @@
             // panel54
             // 
             panel54.BackColor = Color.Transparent;
-            panel54.BackgroundImage = Properties.Resources.playervucontrol;
+            panel54.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel54.BackgroundImageLayout = ImageLayout.Stretch;
             panel54.BorderStyle = BorderStyle.FixedSingle;
             panel54.Controls.Add(panel55);
@@ -1193,7 +1193,7 @@
             // panel55
             // 
             panel55.BackColor = Color.Transparent;
-            panel55.BackgroundImage = Properties.Resources.playervucontrol;
+            panel55.BackgroundImage = WickedBroadcaster.Properties.Resources.playervucontrol;
             panel55.BackgroundImageLayout = ImageLayout.Stretch;
             panel55.BorderStyle = BorderStyle.FixedSingle;
             panel55.Controls.Add(panel56);
@@ -1223,7 +1223,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            BackgroundImage = Properties.Resources.Rpbjm;
+            BackgroundImage = WickedBroadcaster.Properties.Resources.Rpbjm;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1444, 726);
             Controls.Add(panel48);

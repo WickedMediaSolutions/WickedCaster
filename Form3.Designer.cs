@@ -89,7 +89,7 @@
             // 
             // panel3
             // 
-            panel3.BackgroundImage = Properties.Resources.encoderdetailsicecast;
+            panel3.BackgroundImage = WickedBroadcaster.Properties.Resources.encoderdetailsicecast;
             panel3.BackgroundImageLayout = ImageLayout.Stretch;
             panel3.Location = new Point(417, 299);
             panel3.Name = "panel3";
@@ -99,7 +99,7 @@
             // 
             // panel2
             // 
-            panel2.BackgroundImage = Properties.Resources.encoderserverdetails;
+            panel2.BackgroundImage = WickedBroadcaster.Properties.Resources.encoderserverdetails;
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
             panel2.Location = new Point(6, 299);
             panel2.Name = "panel2";
@@ -109,7 +109,7 @@
             // 
             // panel1
             // 
-            panel1.BackgroundImage = Properties.Resources.encoderconfigadd;
+            panel1.BackgroundImage = WickedBroadcaster.Properties.Resources.encoderconfigadd;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.Location = new Point(6, 6);
             panel1.Name = "panel1";

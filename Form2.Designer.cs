@@ -42,7 +42,7 @@
             // 
             // panel1
             // 
-            panel1.BackgroundImage = Properties.Resources.encoderpanel;
+            panel1.BackgroundImage = WickedBroadcaster.Properties.Resources.encoderpanel;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.Location = new Point(13, 53);
             panel1.Name = "panel1";

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1.csproj", "{DF65CCA9-A881-434E-B482-04A6F18DDC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WickedBroadcaster", "WickedBroadcaster.csproj", "{DF65CCA9-A881-434E-B482-04A6F18DDC46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>WinFormsApp1.Program</StartupObject>
+    <Copyright>Wicked Radio</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

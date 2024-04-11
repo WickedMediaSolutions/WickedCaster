@@ -188,6 +188,8 @@ namespace WinFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             // Audio setup window
+            WickedBroadcaster.Form4 form = new WickedBroadcaster.Form4();
+            form.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -356,6 +358,11 @@ namespace WinFormsApp1
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             // list view for song requests displays in order as is received shows song artist/title in list and double clicking track will insert into queue or song can be dragged directly into player deck
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            //if enable now playing information will be output to text file at location set in the audio config
         }
     }
 }

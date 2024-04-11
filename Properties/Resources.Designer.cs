@@ -213,6 +213,16 @@ namespace WickedBroadcaster.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rotation {
+            get {
+                object obj = ResourceManager.GetObject("rotation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rpbjm {
             get {
                 object obj = ResourceManager.GetObject("Rpbjm", resourceCulture);

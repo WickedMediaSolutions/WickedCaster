@@ -97,13 +97,13 @@
             radioButton1 = new RadioButton();
             button6 = new Button();
             button5 = new Button();
-            panel35 = new Panel();
-            checkBox5 = new CheckBox();
-            checkBox6 = new CheckBox();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            panel35 = new Panel();
+            checkBox5 = new CheckBox();
+            checkBox6 = new CheckBox();
             panel36 = new Panel();
             panel37 = new Panel();
             panel48 = new Panel();
@@ -121,6 +121,7 @@
             panel55 = new Panel();
             panel56 = new Panel();
             panel57 = new Panel();
+            checkBox7 = new CheckBox();
             panel1.SuspendLayout();
             panel10.SuspendLayout();
             panel8.SuspendLayout();
@@ -898,6 +899,7 @@
             // panel34
             // 
             panel34.BackColor = Color.Teal;
+            panel34.Controls.Add(checkBox7);
             panel34.Controls.Add(radioButton1);
             panel34.Controls.Add(button6);
             panel34.Controls.Add(button5);
@@ -948,44 +950,6 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
-            // panel35
-            // 
-            panel35.BackColor = Color.DarkGray;
-            panel35.BorderStyle = BorderStyle.FixedSingle;
-            panel35.Controls.Add(checkBox5);
-            panel35.Controls.Add(checkBox6);
-            panel35.Location = new Point(3, 222);
-            panel35.Name = "panel35";
-            panel35.Size = new Size(280, 37);
-            panel35.TabIndex = 19;
-            panel35.Paint += panel35_Paint_1;
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.FlatStyle = FlatStyle.System;
-            checkBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            checkBox5.Location = new Point(134, 6);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(96, 26);
-            checkBox5.TabIndex = 11;
-            checkBox5.Text = "Cue Out";
-            checkBox5.UseVisualStyleBackColor = true;
-            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
-            // 
-            // checkBox6
-            // 
-            checkBox6.AutoSize = true;
-            checkBox6.FlatStyle = FlatStyle.System;
-            checkBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            checkBox6.Location = new Point(46, 6);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(89, 26);
-            checkBox6.TabIndex = 10;
-            checkBox6.Text = "Air Out";
-            checkBox6.UseVisualStyleBackColor = true;
-            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
-            // 
             // button4
             // 
             button4.FlatStyle = FlatStyle.System;
@@ -1033,6 +997,44 @@
             button1.Text = "Exit";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // panel35
+            // 
+            panel35.BackColor = Color.DarkGray;
+            panel35.BorderStyle = BorderStyle.FixedSingle;
+            panel35.Controls.Add(checkBox5);
+            panel35.Controls.Add(checkBox6);
+            panel35.Location = new Point(3, 222);
+            panel35.Name = "panel35";
+            panel35.Size = new Size(280, 37);
+            panel35.TabIndex = 19;
+            panel35.Paint += panel35_Paint_1;
+            // 
+            // checkBox5
+            // 
+            checkBox5.AutoSize = true;
+            checkBox5.FlatStyle = FlatStyle.System;
+            checkBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            checkBox5.Location = new Point(134, 6);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new Size(96, 26);
+            checkBox5.TabIndex = 11;
+            checkBox5.Text = "Cue Out";
+            checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
+            // 
+            // checkBox6
+            // 
+            checkBox6.AutoSize = true;
+            checkBox6.FlatStyle = FlatStyle.System;
+            checkBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            checkBox6.Location = new Point(46, 6);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new Size(89, 26);
+            checkBox6.TabIndex = 10;
+            checkBox6.Text = "Air Out";
+            checkBox6.UseVisualStyleBackColor = true;
+            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
             // 
             // panel36
             // 
@@ -1218,6 +1220,18 @@
             panel57.Size = new Size(28, 192);
             panel57.TabIndex = 6;
             // 
+            // checkBox7
+            // 
+            checkBox7.AutoSize = true;
+            checkBox7.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            checkBox7.Location = new Point(9, 127);
+            checkBox7.Name = "checkBox7";
+            checkBox7.Size = new Size(274, 25);
+            checkBox7.TabIndex = 23;
+            checkBox7.Text = "Now Playing Output To Text File";
+            checkBox7.UseVisualStyleBackColor = true;
+            checkBox7.CheckedChanged += checkBox7_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1374,5 +1388,6 @@
         private Panel panel58;
         private ListView listView1;
         private Label label19;
+        private CheckBox checkBox7;
     }
 }
